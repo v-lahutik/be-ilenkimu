@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaCarCrash } from "react-icons/fa";
 
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,16 +13,20 @@ export function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Brand Logo as Home Button */}
-          <div className="text-lg font-bold text-gray-800">
+          <div className="flex items-center text-lg font-bold text-gray-800">
+            {/* car Icon */}
+            <FaCarCrash />
+
+            {/* Website Name */}
             <a
               href="#hero"
-              className="hover:text-blue-500 transition-colors"
+              className="hover:text-blue-500 transition-colors pl-2"
               onClick={handleCloseMenu}
             >
               Be įlenkimu
             </a>
           </div>
-
+  
           {/* Hamburger Icon for Mobile */}
           <button
             className="text-gray-800 sm:hidden"
@@ -42,7 +47,7 @@ export function NavBar() {
               />
             </svg>
           </button>
-
+  
           {/* Navigation Links */}
           <div
             className={`${
@@ -56,7 +61,7 @@ export function NavBar() {
                   onClick={handleCloseMenu}
                   className="hover:text-blue-500 transition-colors block"
                 >
-                  Paslaugos
+                  Privalumai
                 </a>
               </li>
               <li>
@@ -92,4 +97,5 @@ export function NavBar() {
       </div>
     </nav>
   );
+  
 }

@@ -38,7 +38,7 @@ export function Gallery() {
     <section id="gallery" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-white mb-4">Gallerija</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Galerija</h2>
           {/* <p className="text-lg text-gray-400">See the amazing transformations we achieve</p> */}
         </div>
         <Swiper
@@ -85,7 +85,7 @@ export function Gallery() {
                     </span>
                   </div>
                 </div>
-                <p className="text-center text-lg font-medium text-white">{item.description}</p>
+                {/* <p className="text-center text-lg font-medium text-white">{item.description}</p> */}
               </div>
             </SwiperSlide>
           ))}

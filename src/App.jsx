@@ -5,6 +5,7 @@ import { Gallery } from './components/Gallery';
 import { Process } from './components/Process';
 import { Contact } from './components/Contact';
 import { NavBar } from './components/Navbar';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Gallery />
       <Process />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -4,23 +4,25 @@ import { Hammer, Car, Shield, Wrench } from 'lucide-react';
 const services = [
   {
     icon: Hammer,
-    title: "Pigiau",
+    // title: "Pigiau",
+    title: "Kaina",
     description: "Remontas kainuoja žymiai mažiau nei dažymas."
   },
   {
     icon: Car,
-    title: "Greičiau",
+    // title: "Greičiau",
+    title: "Laikas",
     description: "Tiesinimo darbai užtrunka gerokai trumpiau nei dažymas."
   },
   {
     icon: Shield,
-    title: "Kokybe",
+    title: "Kokybė",
     description: "Išsaugoma orginali detalės spalva ir lakas."
   },
   {
     icon: Wrench,
-    title: "Minor Collision Repair",
-    description: "Expert repair for minor bumps and collisions"
+    title: "Vertės Išsaugojimas",
+    description: "Išlaikoma automobilio rinkos vertė, neprarandant originalumo."
   }
 ];
 
